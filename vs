@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>hello all</h1>
+    <hr>
+    <span style="color: red;">My name is borin</span>
+    <button onclick="Testclick">click me</button>
+</body>
+</html>
+<script>
+    function Testclick(){
+        document.getElementById("myname").innerHTML = name;
+    }
+</script>
